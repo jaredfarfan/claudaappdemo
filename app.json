@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ClaudiaSheinbaumP",
-    "slug": "ClaudiaSheinbaumP",
+    "slug": "claudiaapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jared.farfan.claudiaapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "68c530e6-2d2c-4944-9818-f218e9b8cbbd"
+      }
+    },
+    "owner": "jared.farfan"
   }
 }
